@@ -1,19 +1,17 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
-#include <stdio.h>
+
 #include <stdarg.h>
 /**
- * struct complex - complex type def
- * @re: real number.
- * @im: imaginare number.
- * @fun: The function associated
+ * struct print - print type and print function
+ * @char_to_compare: print type
+ * @f: print function
  */
-typedef struct complex {
-    int re;
-    int im;
+typedef struct number_complex
+{
+	double re;
+	double im;
 } complex;
-
-/* functions prototype */
 
 void display_complex_number(complex c);
 complex conjugate(complex c);
