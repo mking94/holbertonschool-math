@@ -1,0 +1,1 @@
+Sequences can be seen in the framework of loops. We can code some of famous sequences such that the Fibonacci’s sequence, Heron’s sequence, etc … We can also see the limit of the sequences and compare them. This point can help in the computation of the complexity of some algorithms.
